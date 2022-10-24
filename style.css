@@ -36,7 +36,7 @@ header .menu_side, .song_side {
 }
 
 header .song_side {
-    width: 75%;
+    width: 100%;
     background: #0b1320;
 }
 
