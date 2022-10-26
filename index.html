@@ -3,54 +3,291 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style.css">
-    <title>Formulario de Cadastro</title>
+    <title>Music App</title>
 </head>
 
 <body>
-    <div class="box">
-        <div class="img-box">
-            <img src="img-formulario.png">
+<header>
+    <div class="song_side">
+        <nav>
+            <ul>
+                <li>Descubra <span></span></li>
+                <li>Minha Biblioteca</li>
+            </ul>
+            <div class="search">
+                <i class="bi bi-search"></i>
+                <input type="text" placeholder="Pesquisa">
+            </div>
+            <div class="user">
+                <img src="img/KDS CODER.png" alt="User" title="KDS CODER (Jahid Khan)">
+            </div>
+        </nav>
+        <div class="content">
+            <h1>Nome Do Artista (Topo-Inicial)</h1>
+            <p>
+                DESCRIÇÃO - DESCRIÇÃO - DESCRIÇÃO - DESCRIÇÃO - DESCRIÇÃO - DESCRIÇÃO - 
+            </p>
+            <div class="buttons">
+                <button>Tocar</button>
+                <button>Follow</button>
+            </div>
         </div>
-        <div class="form-box">
-            <h2>Criar Conta</h2>
-            <p> Já é um membro? <a href="telaLogin.html"> Login </a> </p>
-            <form action="#">
-                <div class="input-group">
-                    <label for="nome" id="nomeCompleto"> Nome Completo</label>
-                    <input type="text" id="nome" placeholder="Digite o seu nome completo" required>
+        <div class="popular_song">
+            <div class="h4">
+                <h4>Livros Mais Populares</h4>
+                <div class="btn_s">
+                    <i id="left_scroll" class="bi bi-arrow-left-short"></i>
+                    <i id="right_scroll" class="bi bi-arrow-right-short"></i>
                 </div>
-
-                <div class="input-group">
-                    <label for="email" id="emailCompleto">E-mail</label>
-                    <input type="email" id="email" placeholder="Digite o seu email" required>
+            </div>
+            
+            <div class="pop_song">
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="img/1.jpg" alt="alan">
+                        <i class="bi playListPlay bi-play-circle-fill" id="1"></i>
+                    </div>
+                    <h5>On My Way
+                        <br>
+                        <div class="subtitle">Alan Walker</div>
+                    </h5>
+                </li>
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="img/1.jpg" alt="alan">
+                        <i class="bi playListPlay bi-play-circle-fill" id="2"></i>
+                        <!-- change All id  -->
+                    </div>
+                    <h5>On My Way
+                        <br>
+                        <div class="subtitle">Alan Walker</div>
+                    </h5>
+                </li>
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="img/1.jpg" alt="alan">
+                        <i class="bi playListPlay bi-play-circle-fill" id="3"></i>
+                    </div>
+                    <h5>On My Way
+                        <br>
+                        <div class="subtitle">Alan Walker</div>
+                    </h5>
+                </li>
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="img/1.jpg" alt="alan">
+                        <i class="bi playListPlay bi-play-circle-fill" id="4"></i>
+                    </div>
+                    <h5>On My Way
+                        <br>
+                        <div class="subtitle">Alan Walker</div>
+                    </h5>
+                </li>
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="img/1.jpg" alt="alan">
+                        <i class="bi playListPlay bi-play-circle-fill" id="5"></i>
+                    </div>
+                    <h5>On My Way
+                        <br>
+                        <div class="subtitle">Alan Walker</div>
+                    </h5>
+                </li>
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="img/1.jpg" alt="alan">
+                        <i class="bi playListPlay bi-play-circle-fill" id="6"></i>
+                    </div>
+                    <h5>On My Way
+                        <br>
+                        <div class="subtitle">Alan Walker</div>
+                    </h5>
+                </li>
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="img/1.jpg" alt="alan">
+                        <i class="bi playListPlay bi-play-circle-fill" id="7"></i>
+                    </div>
+                    <h5>On My Way
+                        <br>
+                        <div class="subtitle">Alan Walker</div>
+                    </h5>
+                </li>
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="img/1.jpg" alt="alan">
+                        <i class="bi playListPlay bi-play-circle-fill" id="8"></i>
+                    </div>
+                    <h5>On My Way
+                        <br>
+                        <div class="subtitle">Alan Walker</div>
+                    </h5>
+                </li>
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="img/1.jpg" alt="alan">
+                        <i class="bi playListPlay bi-play-circle-fill" id="9"></i>
+                    </div>
+                    <h5>On My Way
+                        <br>
+                        <div class="subtitle">Alan Walker</div>
+                    </h5>
+                </li>
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="img/1.jpg" alt="alan">
+                        <i class="bi playListPlay bi-play-circle-fill" id="10"></i>
+                    </div>
+                    <h5>On My Way
+                        <br>
+                        <div class="subtitle">Alan Walker</div>
+                    </h5>
+                </li>
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="img/1.jpg" alt="alan">
+                        <i class="bi playListPlay bi-play-circle-fill" id="11"></i>
+                    </div>
+                    <h5>On My Way
+                        <br>
+                        <div class="subtitle">Alan Walker</div>
+                    </h5>
+                </li>
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="img/1.jpg" alt="alan">
+                        <i class="bi playListPlay bi-play-circle-fill" id="12"></i>
+                    </div>
+                    <h5>On My Way
+                        <br>
+                        <div class="subtitle">Alan Walker</div>
+                    </h5>
+                </li>
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="img/1.jpg" alt="alan">
+                        <i class="bi playListPlay bi-play-circle-fill" id="13"></i>
+                    </div>
+                    <h5>On My Way
+                        <br>
+                        <div class="subtitle">Alan Walker</div>
+                    </h5>
+                </li>
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="img/1.jpg" alt="alan">
+                        <i class="bi playListPlay bi-play-circle-fill" id="14"></i>
+                    </div>
+                    <h5>On My Way
+                        <br>
+                        <div class="subtitle">Alan Walker</div>
+                    </h5>
+                </li>
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="img/1.jpg" alt="alan">
+                        <i class="bi playListPlay bi-play-circle-fill" id="15"></i>
+                    </div>
+                    <h5>On My Way
+                        <br>
+                        <div class="subtitle">Alan Walker</div>
+                    </h5>
+                </li>
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="img/1.jpg" alt="alan">
+                        <i class="bi playListPlay bi-play-circle-fill" id="16"></i>
+                    </div>
+                    <h5>On My Way
+                        <br>
+                        <div class="subtitle">Alan Walker</div>
+                    </h5>
+                </li>
+            </div>
+        </div>
+        <div class="popular_artists">
+            <div class="h4">
+                <h4>Autores mais populares</h4>
+                <div class="btn_s">
+                    <i id="left_scrolls" class="bi bi-arrow-left-short"></i>
+                    <i id="right_scrolls" class="bi bi-arrow-right-short"></i>
                 </div>
-
-                <div class="input-group">
-                    <label for="telefone" id="telefoneCompleto">Telefone</label>
-                    <input type="tel" id="telefone" placeholder="Digite o seu telefone" required>
-                </div>
-
-                <div class="input-group w50">
-                    <label for="senha" id="senhaCompleto">Senha</label>
-                    <input type="password" id="senha" placeholder="Digite sua senha" required>
-                </div>
-
-                <div class="input-group w50">
-                    <label for="Confirmarsenha" id="confirmarSenhaCompleto">Confirmar Senha</label>
-                    <input type="password" id="confirmarSenha" placeholder="Confirme a senha" required>
-                </div>
-
-                <div class="input-group">
-                    <button type="submit" onclick="cadastrarUsuario()" id="botaoCadastrar">Cadastrar</button>
-                    <table id="tabela"></table>
-                    <script src="index.js"></script>
-                </div>
-
-            </form>
+            </div>
+            <div class="item">
+                <li>
+                    <img src="img/arjit.jpg" alt="Arjit Singh" title="Arjit Singh">
+                </li>
+                <li>
+                    <img src="img/alan.jpg" alt="Alan Walker" title="Alan Walker">
+                </li>
+                <li>
+                    <img src="img/atif.jpg" alt="Atif Aslam" title="Atif Aslam">
+                </li>
+                <li>
+                    <img src="img/guru.jpg" alt="Guru RAndawa" title="Guru Randawa">
+                </li>
+                <li>
+                    <img src="img/dhvani.jpg" alt="Dhvani" title="Dhvani">
+                </li>
+                <li>
+                    <img src="img/Diljit_Dosanjh.jpg" alt="Diljit Dosanjh" title="Diljit Dosanjh">
+                </li>
+                <li>
+                    <img src="img/jubin Nautiyal.jpg" alt="Jubin Nautiyal" title="Jubin Nautiyal">
+                </li>
+                <li>
+                    <img src="img/neha.jpg" alt="Neha Kakker" title="Neha Kakker">
+                </li>
+                <li>
+                    <img src="img/justin-bieber-lede.jpg" alt="Justin Bieber" title="Justin Bieber">
+                </li>
+                <li>
+                    <img src="img/honey.jpg" alt="Honey Singh" title="Honey Singh">
+                </li>
+                <li>
+                    <img src="img/akhil.jpg" alt="Akhil" title="Akhil">
+                </li>
+                <!-- change all img  -->
+            </div>
         </div>
     </div>
+
+
+    <div class="master_play">
+        <div class="wave">
+            <div class="wave1"></div>
+            <div class="wave1"></div>
+            <div class="wave1"></div>
+        </div>
+        <img src="img/26th.jpg" alt="Alan" id="poster_master_play">
+        <h5 id="title">Vande Mataram<br>
+            <div class="subtitle">Bankim Chandra</div>
+        </h5>
+        <div class="icon">
+            <i class="bi bi-skip-start-fill" id="back"></i>
+            <i class="bi bi-play-fill" id="masterPlay"></i>
+            <i class="bi bi-skip-end-fill" id="next"></i>
+        </div>
+        <span id="currentStart">0:00</span>
+        <div class="bar">
+            <input type="range" id="seek" min="0" value="0" max="100">
+            <div class="bar2" id="bar2"></div>
+            <div class="dot"></div>
+        </div>
+        <span id="currentEnd">0:00</span>
+
+        <div class="vol">
+            <i class="bi bi-volume-down-fill" id="vol_icon"></i>
+            <input type="range" id="vol" min="0" value="30" max="100">
+            <div class="vol_bar"></div>
+            <div class="dot" id="vol_dot"></div>
+        </div>
+    </div>
+</header>
+    <script src="app.js"></script>
 </body>
+
 </html>
