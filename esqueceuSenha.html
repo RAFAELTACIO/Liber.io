@@ -3,10 +3,10 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Formulario de Cadastro</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Redefinição de Senha</title>
 </head>
 
 <body>
@@ -15,22 +15,12 @@
             <img src="img-formulario.png">
         </div>
         <div class="form-box">
-            <h2>Criar Conta</h2>
-            <p> Já é um membro? <a href="telaLogin.html"> Login </a> </p>
+            <h2>Redefinir Senha</h2>
+            <p> Recupere seu acesso  </p>
             <form action="#">
-                <div class="input-group">
-                    <label for="nome" id="nomeCompleto"> Nome Completo</label>
-                    <input type="text" id="nome" placeholder="Digite o seu nome completo" required>
-                </div>
-
                 <div class="input-group">
                     <label for="email" id="emailCompleto">E-mail</label>
                     <input type="email" id="email" placeholder="Digite o seu email" required>
-                </div>
-
-                <div class="input-group">
-                    <label for="telefone" id="telefoneCompleto">Telefone</label>
-                    <input type="tel" id="telefone" placeholder="Digite o seu telefone" required>
                 </div>
 
                 <div class="input-group w50">
@@ -44,7 +34,7 @@
                 </div>
 
                 <div class="input-group">
-                    <button type="submit" onclick="cadastrarUsuario()" id="botaoCadastrar">Cadastrar</button>
+                    <button type="submit" onclick="redefinirSenha()" id="botaoCadastrar">Concluir</button>
                     <table id="tabela"></table>
                     <script src="index.js"></script>
                 </div>
